@@ -1,0 +1,22 @@
+{
+  "name": "marked_import_test",
+  "version": "1.0.0",
+  "description": "A markdown test for import",
+  "license": "ISC",
+  "author": "FriquetLuca",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "scripts": {
+    "dev": "ts-node src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "marked": "^15.0.12"
+  }
+}
